@@ -23,6 +23,8 @@ const App = () => {
         setNewPost({ title: "", content: "" });
       })
       .catch((err) => console.log("something went wrong"))
+      .catch((err) => alert('Something went wrong while adding the post.'));
+
   }
 
   // Put request 

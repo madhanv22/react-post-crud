@@ -64,16 +64,7 @@ In the project directory, you can run the following commands:
 
 ## Deployment
 
-This project is deployed on GitHub Pages using Vite's build tools. To deploy your own version:
-
-1. Update the `vite.config.js` file to include the `base` option:
-
-    ```javascript
-    export default defineConfig({
-      base: '/react-post-crud/',
-      plugins: [react()],
-    });
-    ```
+This project is deployed on GitHub Pages using Vite's build tools. 
 
 2. Build the project:
 
