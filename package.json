@@ -1,9 +1,11 @@
 {
-  "name": "react-crud",
+  "homepage": "https://madhanv22.github.io/react-post-crud",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
+    "pridploy": "npm run build",
+    "deploy:": "-gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
